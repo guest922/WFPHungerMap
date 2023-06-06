@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# WFP Hunger Map Monitoring 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a React, Typescript-based application for monitoring the evolution of food insecurity levels. The application uses ESRI, Redux Toolkit (RTK), ReachRTS and WFP UI to develop a map-based interface with informative features and insights.
 
-In the project directory, you can run:
+The application is built as a response to a set of tasks: Design, Development, and Deployment. For more details about these tasks, please refer to the Tasks section below.
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Map-based interface for monitoring food insecurity levels
+- Utilization of various data sources for comprehensive insights
+- Reactivity and responsiveness for different screen sizes (tablet and mobile)
+- (Add more features as required)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tasks
 
-### `npm test`
+### TASK 1: DESIGN
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Output: UX/UI design deliverables. The UX/UI design deliverables include (mention the design deliverables here). Please find the design assets in the (mention the location of the assets - could be a link to a folder in the repository or a live URL).
 
-### `npm run build`
+### TASK 2: DEVELOPMENT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Output: This GitHub repository contains all the code developed for the assignment. The application uses React JS and Redux Toolkit (RTK) for development and ESRI for the geographical component. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Data sources utilized in the development include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Country information API: [Country information](https://api.hungermapdata.org/v2/info/country)
+- Integrated Food Security Phase Classification (IPC) API: [IPC](https://api.hungermapdata.org/v1/ipc/peaks)
+- Food Consumption Score (FCS) and Reduced Coping Strategy Index (rCSI) API: [FCS & rCSI](https://api.hungermapdata.org/v1/foodsecurity/country/<ISO3_CODE>)
+- Climate stats data API: [Climate stats](https://api.hungermapdata.org/v2/climate/country)
+- Hazards data API: [Hazards](https://api.hungermapdata.org/v1/climate/hazards)
+- Shape files: (Provide link or location to the Shape files)
 
-### `npm run eject`
+### TASK 3: DEPLOYMENT
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application is deployed and live hosted at (provide the link to the live hosted application).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Node.js
+- NPM
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository
+    ```
+    git clone https://github.com/yourusername/projectname.git
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install NPM packages
+    ```
+    npm install
+    ```
+
+3. Start the development server
+    ```
+    npm start
+    ```
