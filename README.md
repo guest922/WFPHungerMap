@@ -18,6 +18,12 @@ The application is built as a response to a set of tasks: Design, Development, a
 ### TASK 1: DESIGN
 
 Output: UX/UI design deliverables. The UX/UI design deliverables include (mention the design deliverables here). Please find the design assets in the (mention the location of the assets - could be a link to a folder in the repository or a live URL).
+![UX Design](UI/2023-0.jpg)
+![UX Design](UI/2023-06.jpg)
+![UX Design](UI/2023-06-07.jpg)
+![UX Design](UI/2023-06-0.jpg)
+![UX Design](UI/2023.jpg)
+
 
 ### TASK 2: DEVELOPMENT
 
