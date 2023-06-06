@@ -34,7 +34,7 @@ Data sources utilized in the development include:
 
 ### TASK 3: DEPLOYMENT
 
-The application is deployed and live hosted at (provide the link to the live hosted application).
+The application is deployed and live hosted at (http://wfptask.s3-website.eu-north-1.amazonaws.com/).
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ The application is deployed and live hosted at (provide the link to the live hos
 
 1. Clone the repository
     ```
-    git clone https://github.com/yourusername/projectname.git
+    git clone git@github.com:guest922/WFPHungerMap.git
     ```
 
 2. Install NPM packages
