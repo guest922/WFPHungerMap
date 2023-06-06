@@ -30,7 +30,7 @@ jobs:
           aws-region: wfptask
 
       - name: Deploy to S3
-        uses: aws-actions/s3-sync@v0
+        uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           source_dir: build
           bucket_name: my-bucket-name
